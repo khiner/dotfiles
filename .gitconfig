@@ -1,0 +1,14 @@
+[user]
+        name = Karl Hiner
+        email = karl.hiner@gmail.com
+[core]
+        editor = emacs
+[color]
+        ui = true
+[push]
+        default = current
+[alias]
+        co = checkout
+        st = status
+        re = rebase
+        cm = commit

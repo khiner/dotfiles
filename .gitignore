@@ -1,0 +1,15 @@
+# Ignore everything ...
+*
+
+# ... except dot files.
+!.*
+
+# but _do_ ignore these dot files.
+.oh-my-zsh
+.zsh_history
+.zsh-update
+.bash_history
+.python_history
+.zcompdump*
+.Trash
+.DS_Store
