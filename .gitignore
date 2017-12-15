@@ -2,19 +2,9 @@
 *
 
 # ... except dot files/folders.
-!.*
-!.*/**
-
-# but _do_ ignore these dot files.
-.bash_history
-.bash_sessions/**
-.DS_Store
-.ipython/**
-.oh-my-zsh
-.python_history
-.matplotlib/**
-.ssh/*
-.Trash
-.zcompdump*
-.zsh_history
-.zsh-update
+.config/**
+.jupyter/**
+.CFUserTextEncoding
+.gitconfig
+.gitignore
+.zshrc
