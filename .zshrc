@@ -113,3 +113,5 @@ alias chrome="open -a \"Google Chrome\" $1"
 
 
 eval $(thefuck --alias)
+
+export PATH=$PATH:$HOME/cling/bin
