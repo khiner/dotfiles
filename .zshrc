@@ -110,8 +110,13 @@ function cd {
 }
 alias ytdl="youtube-dl"
 alias chrome="open -a \"Google Chrome\" $1"
+alias rne="ruby -ne"
 
+export PATH=$PATH:$HOME/cling/bin:$HOME
 
-eval $(thefuck --alias)
-
-export PATH=$PATH:$HOME/cling/bin
+export CFLAGS="-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+export CCFLAGS="-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+export CXXFLAGS="-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+export CPPFLAGS="-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"

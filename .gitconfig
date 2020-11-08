@@ -3,6 +3,8 @@
         email = karl.hiner@gmail.com
 [core]
         editor = emacs
+	autocrlf = input
+	safecrlf = true
 [color]
         ui = true
 [push]
@@ -12,3 +14,4 @@
         st = status
         re = rebase
         cm = commit
+        cp = cherry-pick
