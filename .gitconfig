@@ -15,3 +15,5 @@
         re = rebase
         cm = commit
         cp = cherry-pick
+[pull]
+	rebase = true
