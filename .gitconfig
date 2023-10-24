@@ -2,8 +2,8 @@
         name = Karl Hiner
         email = karl.hiner@gmail.com
 [core]
-        editor = emacs
-	autocrlf = input
+        editor = vim
+	autocrlf = false
 	safecrlf = true
 [color]
         ui = true
@@ -15,5 +15,8 @@
         re = rebase
         cm = commit
         cp = cherry-pick
+	amend = commit --amend --no-edit
 [pull]
 	rebase = true
+[init]
+	defaultBranch = main
